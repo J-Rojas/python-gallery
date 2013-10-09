@@ -215,7 +215,7 @@ var Carousel = (function() {
 
     var gallery = new Carousel(
         document.querySelector('#gallery'),  //the gallery node
-        document.querySelector('#caption'),  //the gallery node        
+        document.querySelector('#caption'),  //the caption node        
         document.querySelector('#loading')  //the loading node
     );
 
