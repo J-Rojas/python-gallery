@@ -222,7 +222,6 @@ var Carousel = (function() {
     //parse the JSON...
     var galleryJSON = new XMLHttpRequest();
     
-    //to simplify... don't use an asynchronous request.
     galleryJSON.open('GET', '/proxy/snapguide.com/api/v1/guide/b995492d5e7943e3b2757a88fe3ef7c6', true);
     
     galleryJSON.onreadystatechange = function() {
